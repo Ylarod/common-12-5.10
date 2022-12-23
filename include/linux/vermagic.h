@@ -46,4 +46,9 @@
 	MODULE_ARCH_VERMAGIC						\
 	MODULE_RANDSTRUCT_PLUGIN
 
+#undef VERMAGIC_STRING
+#define VERMAGIC_STRING "5.10.101-android12-9-00001-gf4c0e37dbcde-ab8596533 SMP preempt mod_unload modversions aarch64"
+
+#undef VERMAGIC_STRING
+#define VERMAGIC_STRING "5.10.43-android12-9-gb8e472053352-ab8059253 SMP preempt mod_unload modversions aarch64"
 #endif /* _LINUX_VERMAGIC_H */
